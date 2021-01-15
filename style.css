@@ -9,13 +9,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.margin-top{
-    margin-top:80px ;
-    margin-bottom:80px ;
+.margin-top {
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
-.section-partners{
+
+.section-partners {
     margin-top: 120px;
 }
+
 .head-images {
     max-width: 100%;
     height: auto;
@@ -26,13 +28,14 @@ body {
     color: rgb(48, 48, 48);
 }
 
-.partner-list img{
+.partner-list img {
     opacity: 0.6;
 }
 
-.footer{
+.footer {
     margin-top: 80px;
 }
+
 .title-session {
     font-size: 40px;
     font-weight: 400;
@@ -70,10 +73,20 @@ body {
     left: 0;
     bottom: 0;
     height: 80px;
+    position: relative;
     width: 100%;
     background-color: #930AFF;
     color: white;
     text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 @media(max-width:375px) {
@@ -92,10 +105,10 @@ body {
     .row-reverse {
         flex-direction: column-reverse;
     }
-    .padding{
-        padding:2em;
+    .padding {
+        padding: 2em;
     }
-    .partner-list img{
+    .partner-list img {
      padding: 0 1.7em 1.7em;
     }
 }
