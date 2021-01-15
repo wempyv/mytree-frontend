@@ -16,13 +16,13 @@ body {
 
 .typography {
     font-size: 42px;
-    color: rgb(80, 80, 80);
+    color: rgb(48, 48, 48);
 }
 
 .title-session {
     font-size: 40px;
     font-weight: 400;
-    color: rgb(80, 80, 80);
+    color: rgb(48, 48, 48);
 }
 
 .jumbotron {
@@ -66,5 +66,11 @@ body {
     .title-session {
         font-size: 26px;
         font-weight: 400;
+    }
+    .row-reverse {
+        flex-direction: column-reverse;
+    }
+    .padding{
+        padding:2em;
     }
 }
