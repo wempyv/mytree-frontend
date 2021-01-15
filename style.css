@@ -16,11 +16,13 @@ body {
 
 .typography {
     font-size: 42px;
+    color: rgb(80, 80, 80);
 }
 
 .title-session {
     font-size: 40px;
     font-weight: 400;
+    color: rgb(80, 80, 80);
 }
 
 .jumbotron {
