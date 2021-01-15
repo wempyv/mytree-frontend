@@ -13,6 +13,9 @@ body {
     margin-top:80px ;
     margin-bottom:80px ;
 }
+.section-partners{
+    margin-top: 120px;
+}
 .head-images {
     max-width: 100%;
     height: auto;
@@ -23,6 +26,13 @@ body {
     color: rgb(48, 48, 48);
 }
 
+.partner-list img{
+    opacity: 0.6;
+}
+
+.footer{
+    margin-top: 80px;
+}
 .title-session {
     font-size: 40px;
     font-weight: 400;
@@ -84,5 +94,8 @@ body {
     }
     .padding{
         padding:2em;
+    }
+    .partner-list img{
+     padding: 0 1.7em 1.7em;
     }
 }
