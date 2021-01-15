@@ -1,8 +1,30 @@
-.head-images{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.head-images {
     max-width: 100%;
     height: auto;
 }
 
-.jumbotron{
+.typography {
+    font-size: 42px;
+}
+
+.jumbotron {
     background-color: white;
+}
+
+.secondary-color {
+    color: #B6B1B1;
+    font-size: 26px;
+    font-weight: 300;
+}
+.btn-login{
+    background-color: #00C337;
+    color: white;
+}
+.btn-primary{
+    background-color: #43098C;
 }
