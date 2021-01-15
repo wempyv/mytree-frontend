@@ -12,6 +12,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
     <title>My Tree</title>
   </head>
@@ -68,7 +69,7 @@
       <section class="section-features">
         <div class="row d-flex align-items-center row-reverse">
           <div class="col-sm-12 col-md-5">
-            <div>
+            <div data-aos="fade-down">
               <h2 class="title-session">
                 Sick of spreading links with lots of links?
               </h2>
@@ -78,7 +79,7 @@
               </p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-md-7" data-aos="fade-up">
             <img class="head-images padding" src="./img/features.png" />
           </div>
         </div>
@@ -86,10 +87,10 @@
 
       <section class="section-pricing margin-top">
         <div class="row d-flex align-items-center">
-          <div class="col-sm-12 col-md-7">
+          <div class="col-sm-12 col-md-7" data-aos="fade-right">
             <img class="head-images" src="./img/free.png" />
           </div>
-          <div class="col-sm-12 col-md-5">
+          <div class="col-sm-12 col-md-5" data-aos="fade-left">
             <div>
               <h2 class="title-session">
                 Confused by other paid applications?
@@ -105,7 +106,7 @@
 
       <section class="section-testimonials margin-top">
         <div class="row d-flex align-items-center row-reverse">
-          <div class="col-sm-12 col-md-5">
+          <div class="col-sm-12 col-md-5" data-aos="fade-up-right">
             <div>
               <h2 class="title-session">What do they say about this?</h2>
               <p class="secondary-color">
@@ -114,13 +115,13 @@
               </p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-7">
+          <div class="col-sm-12 col-md-7" data-aos="fade-up-left">
             <img class="head-images" src="./img/testimonials.png" />
           </div>
         </div>
       </section>
 
-      <section class="section-partners">
+      <section class="section-partners" data-aos="fade-down">
         <div class="partner-title text-center">
           <h2 class="title-session">My Tree Partners</h2>
           <p class="secondary-color">
@@ -150,6 +151,12 @@
     </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800
+      });
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
