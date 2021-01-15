@@ -9,6 +9,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.margin-top{
+    margin-top:80px ;
+    margin-bottom:80px ;
+}
 .head-images {
     max-width: 100%;
     height: auto;
@@ -27,6 +31,12 @@ body {
 
 .jumbotron {
     background-color: white;
+}
+
+.typography-caption {
+    color: #B6B1B1;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .secondary-color {
@@ -62,10 +72,12 @@ body {
     }
     .secondary-color {
         font-size: 19px;
+        text-align: center;
     }
     .title-session {
         font-size: 26px;
         font-weight: 400;
+        text-align: center;
     }
     .row-reverse {
         flex-direction: column-reverse;
